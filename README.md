@@ -11,6 +11,8 @@ The following files should be present in the project folder:
   - clustalo.py
   - precommand.py
   - postcommand.py
-  - clustalo-[jobtitle].tree.dnd
+  - clustalo-[jobtitle]
+    - .tree.dnd
+    - .pim.pim
 
 At present, no tests are included. I will attempt to write them before Friday night.
