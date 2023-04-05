@@ -1,3 +1,6 @@
+# This file is to be run before the command line step (see README.md)
+
+
 # Already run, appends the mystery sequence to the database so that the entire database could be aligned. Run this only for the first time you use
 # a new mystery file.
 
