@@ -5,7 +5,7 @@ A Biocomputing project investigaing a DNA sequence from an unknown dog type, and
 
 At present, this project is not pipelined: I could not figure out how to do the command-line step from within the python file, or even if this is possible. As such, there is a command-line step that requires manual input by the user. More information about this is described by the first python file, named "precommand". After this request is returned, the python file named "postcommand" should be able to take the correct file(s) from the output provided by the EBI service and construct a functional phylogenetic tree, as well as various metrics assessing similarity to the target sequence.
 
-The commandline will return other files in addition to the ones necessary for the postcommand.py, these can be discarded if desired. They can be useful for verifying the dataset that was used to generate the results and to visually inspect the MSA performed by the EBI Web Service however, so they will be returned alongside the relevant files.
+The command-line will return other files in addition to the ones necessary for the postcommand.py, these can be discarded if desired. They can be useful for verifying the dataset that was used to generate the results and to visually inspect the MSA performed by the EBI Web Service however, so they will be returned alongside the relevant files.
 
 The following files should be present in the project folder:
   - mystery.fasta
